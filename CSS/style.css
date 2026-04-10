@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #636363;
+    /* color: #636363; */
     font-family: "Roboto", sans-serif;
     /* background-image: url("./../images/pic2.png"); */
 }
@@ -666,3 +666,22 @@ footer {
    color: white;      
 }
 
+/* back to top */
+.backtotop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f55f8d;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: .5;
+}
