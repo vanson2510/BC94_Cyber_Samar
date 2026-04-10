@@ -176,6 +176,7 @@ header {
 }
 
 .services__item:hover {
+    border: 2px dashed #3498db;
     transform: translateY(-20px);
     border-image: url(../img/br.png) 1 round;
 }
@@ -299,9 +300,9 @@ header {
     animation: move2 5s infinite;
 }
 
-/* .features__banner {
+.features__banner {
     margin-right: -80px;
-} */
+}
 
 .features__item {
     padding: 0 50px 30px 0;
