@@ -24,6 +24,11 @@
     <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <!-- Slick -->
+
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -63,7 +68,8 @@
                     <h2 class="animate__animated animate__bounce">Freelance Product Designer Running</h2>
                 </div>
                 <div class="carousel__article">
-                    <p class="animate__animated animate__fadeInUp">We develop the relationships that underpin the next phase in your<br />
+                    <p class="animate__animated animate__fadeInUp">We develop the relationships that underpin the next
+                        phase in your<br />
                         organisation’s growth.</p>
                     <ul class="animate__animated animate__shakeY">
                         <li><i class="fa-solid fa-check"></i>Master's degree in designing</li>
@@ -545,6 +551,23 @@
     <!-- Back to top -->
     <script src="./libs/back-to-top/util.js"></script>
     <script src="./libs/back-to-top/main.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Slick -->
+    <script src="./libs/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.blog__slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            });
+        });
+    </script>
 </body>
 
 </html>

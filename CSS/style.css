@@ -699,6 +699,11 @@ footer {
     color:#f55f8d
 }
 
+.footer__item::after {
+    border: white;
+}
+
+
 /* back to top */
 .backtotop {
     position: fixed;
